@@ -1,6 +1,35 @@
 {
     "experiences": [
         {
+            "date": "2025",
+            "experience_type": "Projet TER - Stage",
+            "title": "IMT Atlantique (TASC)",
+            "description": "Ce projet, mené dans le cadre d’un TER puis poursuivi en stage, s’inscrit dans les travaux de l’équipe <a class='link_experiences' href='https://www.ls2n.fr/equipe/tasc/' target='_blank'>TASC</a> du LS2N à l’IMT Atlantique. Il vise à développer une <a class='link_experiences' href='https://gitlab.imt-atlantique.fr/l25vaugr/visualchoquetrank' target='_blank'>interface utilisateur</a> interactive pour un modèle d’apprentissage de règles d’association fondé sur l’intégrale de Choquet, utilisée pour agréger les préférences de l’utilisateur de manière fine et personnalisée.",
+            "languages": [
+                {
+                    "name": "Vue.JS",
+                    "url": "https://vuejs.org"
+                },
+                {
+                    "name": "CSS",
+                    "url": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
+                },
+                {
+                    "name": "JavaScript",
+                    "url": "https://fr.wikipedia.org/wiki/JavaScript"
+                },
+                {
+                    "name": "Java",
+                    "url": "https://fr.wikipedia.org/wiki/Java_(langage)"
+                },
+                {
+                    "name": "Docker",
+                    "url": "https://www.docker.com"
+                }
+            ],
+            "image": "/img/experiences/imt-tasc.gif"
+        },
+        {
             "date": "2023-2024",
             "experience_type": "Alternance",
             "title": "Mobil-Inn",
@@ -27,7 +56,7 @@
                     "url": "https://leafletjs.com/"
                 }
             ],
-            "image": "/img/experiences/mobil-inn.png" 
+            "image": "/img/experiences/mobil-inn.png"
         },
         {
             "date": "2023",
@@ -52,7 +81,7 @@
                     "url": "https://vuejs.org"
                 }
             ],
-            "image": "/img/experiences/tac_economics.png" 
+            "image": "/img/experiences/tac_economics.png"
         }
     ]
 }

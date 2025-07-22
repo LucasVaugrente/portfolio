@@ -1,87 +1,93 @@
 {
-    "experiences": [
+  "experiences": [
+    {
+      "date": "2025",
+      "experience_type_fr": "Projet TER - Stage",
+      "experience_type_en": "Project - Internship",
+      "title": "IMT Atlantique (TASC)",
+      "description_fr": "Ce projet, mené dans le cadre d’un TER puis poursuivi en stage, s’inscrit dans les travaux de l’équipe <a class='link_experiences' href='https://www.ls2n.fr/equipe/tasc/' target='_blank'>TASC</a> du LS2N à l’IMT Atlantique. Il vise à développer une <a class='link_experiences' href='https://gitlab.imt-atlantique.fr/l25vaugr/visualchoquetrank' target='_blank'>interface utilisateur</a> interactive pour un modèle d’apprentissage de règles d’association fondé sur l’intégrale de Choquet, utilisée pour agréger les préférences de l’utilisateur de manière fine et personnalisée.",
+      "description_en": "This project, conducted as part of a TER and then continued as an internship, is part of the work of the <a class='link_experiences' href='https://www.ls2n.fr/equipe/tasc/' target='_blank'>TASC</a> team at LS2N, IMT Atlantique. It aims to develop an <a class='link_experiences' href='https://gitlab.imt-atlantique.fr/l25vaugr/visualchoquetrank' target='_blank'>interactive user interface</a> for a Choquet integral-based association rule learning model, used to finely and personalizedly aggregate user preferences.",
+      "languages": [
         {
-            "date": "2025",
-            "experience_type": "Projet TER - Stage",
-            "title": "IMT Atlantique (TASC)",
-            "description": "Ce projet, mené dans le cadre d’un TER puis poursuivi en stage, s’inscrit dans les travaux de l’équipe <a class='link_experiences' href='https://www.ls2n.fr/equipe/tasc/' target='_blank'>TASC</a> du LS2N à l’IMT Atlantique. Il vise à développer une <a class='link_experiences' href='https://gitlab.imt-atlantique.fr/l25vaugr/visualchoquetrank' target='_blank'>interface utilisateur</a> interactive pour un modèle d’apprentissage de règles d’association fondé sur l’intégrale de Choquet, utilisée pour agréger les préférences de l’utilisateur de manière fine et personnalisée.",
-            "languages": [
-                {
-                    "name": "Vue.JS",
-                    "url": "https://vuejs.org"
-                },
-                {
-                    "name": "CSS",
-                    "url": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
-                },
-                {
-                    "name": "JavaScript",
-                    "url": "https://fr.wikipedia.org/wiki/JavaScript"
-                },
-                {
-                    "name": "Java",
-                    "url": "https://fr.wikipedia.org/wiki/Java_(langage)"
-                },
-                {
-                    "name": "Docker",
-                    "url": "https://www.docker.com"
-                }
-            ],
-            "image": "/img/experiences/imt-tasc.gif"
+          "name": "Vue.JS",
+          "url": "https://vuejs.org"
         },
         {
-            "date": "2023-2024",
-            "experience_type": "Alternance",
-            "title": "Mobil-Inn",
-            "description": "Une alternance commencée en octobre jusqu'à aujourd'hui à <a class='link_experiences' href='https://mobil-inn.com' target='_blank'>Mobil-Inn</a>, ma mission consistait à améliorer le visuel des pages de l'application web existant. L'entreprise propose une suite de logiciel : <a class='link_experiences' href='https://mobil-inn.com/ismartcollect/' target='_blank'>IsmartCollect</a> qui permet de géolocaliser les éboueurs et de les accompagner lors de leurs tournées. Ma dernière mission est mettre en place un environnement de gestion de l'entreprise avec <a class='link_experiences' href='https://www.odoo.com/fr_FR' target='_blank'>Odoo</a> pour avoir plus de faciliter dans la personnalisation d'affichage de données des clients.",
-            "languages": [
-                {
-                    "name": "HTML",
-                    "url": "https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"
-                },
-                {
-                    "name": "CSS",
-                    "url": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
-                },
-                {
-                    "name": "JavaScript",
-                    "url": "https://fr.wikipedia.org/wiki/JavaScript"
-                },
-                {
-                    "name": "JQuery",
-                    "url": "https://jquery.com"
-                },
-                {
-                    "name": "LeafletJS",
-                    "url": "https://leafletjs.com/"
-                }
-            ],
-            "image": "/img/experiences/mobil-inn.png"
+          "name": "CSS",
+          "url": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
         },
         {
-            "date": "2023",
-            "experience_type": "Stage",
-            "title": "TAC ECONOMICS",
-            "description": "Un stage de 3 mois à <a class='link_experiences' href='https://www.taceconomics.com' target='_blank'>TAC Economics</a>, ma mission consistait à améliorer et ajouter des fonctionnalités sur leur application web intéragissant avec une API REST. J'ai effectué le stage en télétravail hybride avec parfois de l'autonomie dans mes tâches de travail.",
-            "languages": [
-                {
-                    "name": "HTML",
-                    "url": "https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"
-                },
-                {
-                    "name": "CSS",
-                    "url": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
-                },
-                {
-                    "name": "JavaScript",
-                    "url": "https://fr.wikipedia.org/wiki/JavaScript"
-                },
-                {
-                    "name": "Vue.JS",
-                    "url": "https://vuejs.org"
-                }
-            ],
-            "image": "/img/experiences/tac_economics.png"
+          "name": "JavaScript",
+          "url": "https://fr.wikipedia.org/wiki/JavaScript"
+        },
+        {
+          "name": "Java",
+          "url": "https://fr.wikipedia.org/wiki/Java_(langage)"
+        },
+        {
+          "name": "Docker",
+          "url": "https://www.docker.com"
         }
-    ]
+      ],
+      "image": "/img/experiences/imt-tasc.gif"
+    },
+    {
+      "date": "2023-2024",
+      "experience_type_fr": "Alternance",
+      "experience_type_en": "Work-Study",
+      "title": "Mobil-Inn",
+      "description_fr": "Une alternance commencée en octobre jusqu'à aujourd'hui à <a class='link_experiences' href='https://mobil-inn.com' target='_blank'>Mobil-Inn</a>, ma mission consistait à améliorer le visuel des pages de l'application web existant. L'entreprise propose une suite de logiciel : <a class='link_experiences' href='https://mobil-inn.com/ismartcollect/' target='_blank'>IsmartCollect</a> qui permet de géolocaliser les éboueurs et de les accompagner lors de leurs tournées. Ma dernière mission est mettre en place un environnement de gestion de l'entreprise avec <a class='link_experiences' href='https://www.odoo.com/fr_FR' target='_blank'>Odoo</a> pour avoir plus de faciliter dans la personnalisation d'affichage de données des clients.",
+      "description_en": "A work-study program that started in October and continues to the present at <a class='link_experiences' href='https://mobil-inn.com' target='_blank'>Mobil-Inn</a>. My mission was to enhance the visual design of existing web application pages. The company offers a software suite: <a class='link_experiences' href='https://mobil-inn.com/ismartcollect/' target='_blank'>IsmartCollect</a>, which allows for geolocation of waste collectors and assists them during their rounds. My latest task is to set up a business management environment with <a class='link_experiences' href='https://www.odoo.com/fr_FR' target='_blank'>Odoo</a> to facilitate data display customization for clients.",
+      "languages": [
+        {
+          "name": "HTML",
+          "url": "https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"
+        },
+        {
+          "name": "CSS",
+          "url": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
+        },
+        {
+          "name": "JavaScript",
+          "url": "https://fr.wikipedia.org/wiki/JavaScript"
+        },
+        {
+          "name": "JQuery",
+          "url": "https://jquery.com"
+        },
+        {
+          "name": "LeafletJS",
+          "url": "https://leafletjs.com/"
+        }
+      ],
+      "image": "/img/experiences/mobil-inn.png"
+    },
+    {
+      "date": "2023",
+      "experience_type_fr": "Stage",
+      "experience_type_en": "Internship",
+      "title": "TAC ECONOMICS",
+      "description_fr": "Un stage de 3 mois à <a class='link_experiences' href='https://www.taceconomics.com' target='_blank'>TAC Economics</a>, ma mission consistait à améliorer et ajouter des fonctionnalités sur leur application web intéragissant avec une API REST. J'ai effectué le stage en télétravail hybride avec parfois de l'autonomie dans mes tâches de travail.",
+      "description_en": "A 3-month internship at <a class='link_experiences' href='https://www.taceconomics.com' target='_blank'>TAC Economics</a>, where my mission was to enhance and add features to their web application interacting with a REST API. I completed the internship in a hybrid remote work setup, sometimes working autonomously on my tasks.",
+      "languages": [
+        {
+          "name": "HTML",
+          "url": "https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"
+        },
+        {
+          "name": "CSS",
+          "url": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
+        },
+        {
+          "name": "JavaScript",
+          "url": "https://fr.wikipedia.org/wiki/JavaScript"
+        },
+        {
+          "name": "Vue.JS",
+          "url": "https://vuejs.org"
+        }
+      ],
+      "image": "/img/experiences/tac_economics.png"
+    }
+  ]
 }

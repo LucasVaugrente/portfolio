@@ -108,3 +108,11 @@ h1 {
     transform: translateY(0);
     transition: .6s;
 }
+
+.fr_lang {
+    display: block;
+}
+
+.eng_lang {
+    display: block;
+}

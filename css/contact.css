@@ -1,52 +1,52 @@
 #contact {
-    background-color: var(--pink-background);
-    padding: 200px 0;
+  background-color: var(--pink-background);
+  padding: 200px 0;
 }
 
 .title-contacts {
-    color: var(--blue-background);
+  color: var(--blue-background);
 }
 
 .contact-block {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
 }
 
 .contact-block a {
-    display: flex;
-    align-items: center;
-    border-radius: 20px;
-    background-color: var(--blockpink-background);
-    filter: drop-shadow(0px 0px 10px rgba(28, 28, 51, 0.24));
-    width: 113px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-color: var(--blockpink-background);
+  filter: drop-shadow(0px 0px 10px rgba(28, 28, 51, 0.24));
+  width: 113px;
 }
 
 .contact-block a:hover {
-    width: var(--size) !important;
-    background-color: rgb(226, 211, 237);
+  width: var(--size) !important;
+  background-color: rgb(226, 211, 237);
 }
 
 .block-git {
-    width: 110px !important;
+  width: 110px !important;
 }
 
 .contact-block a span {
-    font-size: 25px;
-    white-space: pre;
-    color: var(--blue-background);
-    margin-top: 8px;
-    overflow: hidden;
+  font-size: 25px;
+  white-space: pre;
+  color: var(--blue-background);
+  margin-top: 8px;
+  overflow: hidden;
 }
 
 .contact-block img {
-    padding: 20px;
+  padding: 20px;
 }
 
 @media screen and (max-width: 850px) {
-    .contact-block {
-        flex-direction: column;
-        align-items: center;
-    }
+  .contact-block {
+    flex-direction: column;
+    align-items: center;
+  }
 }

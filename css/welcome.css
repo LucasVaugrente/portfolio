@@ -1,147 +1,149 @@
 #welcome {
-    position: relative;
-    z-index: 1;
-    height: 100vh;
-    width: 100vw;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    background : radial-gradient(ellipse at bottom, var(--color-background-welcome) 0%, var(--blue-background) 100%);
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: radial-gradient(
+    ellipse at bottom,
+    var(--color-background-welcome) 0%,
+    var(--blue-background) 100%
+  );
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 70%;
-    pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  pointer-events: none;
 }
 
 .content span {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .welcome {
-    font-size: 20px;
-    color: var(--link-color-backBlue);
-    pointer-events: all;
+  font-size: 20px;
+  color: var(--link-color-backBlue);
+  pointer-events: all;
 }
 
 .name {
-    font-size: clamp(40px, 8vw, 80px);
-    color: var(--white-color);
-    font-weight: 700;
-    margin-top: 10px;
-    pointer-events: all;
+  font-size: clamp(40px, 8vw, 80px);
+  color: var(--white-color);
+  font-weight: 700;
+  margin-top: 10px;
+  pointer-events: all;
 }
 
 .status {
-    font-size: clamp(40px, 8vw, 70px);
-    color: var(--welcome-color2);
-    pointer-events: all;
+  font-size: clamp(40px, 8vw, 70px);
+  color: var(--welcome-color2);
+  pointer-events: all;
 }
 
 .pitch {
-    font-size: 20px;
-    color: var(--welcome-color3);
-    white-space: normal;
-    margin-top: 15px;
-    width: 70%;
-    pointer-events: all;
+  font-size: 20px;
+  color: var(--welcome-color3);
+  white-space: normal;
+  margin-top: 15px;
+  width: 70%;
+  pointer-events: all;
 }
 
 .btn-welcome {
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-    font-family: "calibre_medium";
-    padding: 17px 10px 10px 10px;
-    margin-top: 50px;
-    width: 200px;
-    color: var(--link-color-backBlue);
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 25px;
-    border: 2px solid var(--link-color-backBlue);
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.5s ease;
-    pointer-events: all;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: "calibre_medium";
+  padding: 17px 10px 10px 10px;
+  margin-top: 50px;
+  width: 200px;
+  color: var(--link-color-backBlue);
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 25px;
+  border: 2px solid var(--link-color-backBlue);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  pointer-events: all;
 }
-  
+
 .btn-welcome:before,
-.btn-welcome:after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    background: rgba(131, 253, 245, 0.253);
-    z-index: -1;
-    transform: translate3D(0,-100%,0);
-    transition: all .5s;
+.btn-welcome:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: rgba(131, 253, 245, 0.253);
+  z-index: -1;
+  transform: translate3D(0, -100%, 0);
+  transition: all 0.5s;
 }
-  
-.btn-welcome:before{
-    background: transparent;
-    z-index: -2;
-    transform: translate3D(0,0,0);
+
+.btn-welcome:before {
+  background: transparent;
+  z-index: -2;
+  transform: translate3D(0, 0, 0);
 }
-  
-.btn-welcome:hover{
-    color: white;
+
+.btn-welcome:hover {
+  color: white;
 }
-  
-.btn-welcome:hover:after{
-    transform: translate3D(0,0,0);
-    transition: all .5s;
-} 
+
+.btn-welcome:hover:after {
+  transform: translate3D(0, 0, 0);
+  transition: all 0.5s;
+}
 
 .iut-site:link {
-    display: inline-block;
-    color: var(--link-color-backBlue);
+  display: inline-block;
+  color: var(--link-color-backBlue);
 }
 
 .iut-site::after {
-    content: '';
-    width: 0px;
-    height: 1px;
-    margin-top: -4px;
-    display: block;
-    background: var(--link-color-backBlue);
-    transition: .5s;
+  content: "";
+  width: 0px;
+  height: 1px;
+  margin-top: -4px;
+  display: block;
+  background: var(--link-color-backBlue);
+  transition: 0.5s;
 }
 
 .iut-site:hover::after {
-    width: 100%;
+  width: 100%;
 }
 
 .iut-site:visited {
-    color: var(--link-color-backBlue);
+  color: var(--link-color-backBlue);
 }
 
 .cercle {
-    position: absolute;
-    top: 70vh;
-    left: 45vw;
-    height: 200px;
-    width: 200px;
-    background-color: var(--link-color-backBlue);
-    border-radius: 50%;
-    filter: blur(220px);
+  position: absolute;
+  top: 70vh;
+  left: 45vw;
+  height: 200px;
+  width: 200px;
+  background-color: var(--link-color-backBlue);
+  border-radius: 50%;
+  filter: blur(220px);
 }
 
-@media screen and (max-width:700px) {
-
-    .pitch {
-        font-size: 18px;
-        width: 100%;
-    }
-
+@media screen and (max-width: 700px) {
+  .pitch {
+    font-size: 18px;
+    width: 100%;
+  }
 }

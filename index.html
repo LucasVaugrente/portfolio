@@ -21,10 +21,8 @@
     <meta property="og:image:height" content="1080">
     <meta property="og:title" content="Lucas Vaugrente">
 
-    <!-- Image Ico dans l'onglet-->
     <link rel="icon" type="image/png" sizes="16x16" href="img/profile/logo_ico.png" style="border-radius: 50px;">
 
-    <!-- Import des fichiers css-->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/welcome.css">
@@ -38,7 +36,6 @@
     <style id="project-styles"></style>
     <style id="experience-styles"></style>
 
-    <!-- Titre de l'onglet de la page -->
     <title>Lucas Vaugrente</title>
 
 </head>
@@ -48,23 +45,39 @@
     <main>
 
         <nav>
-            
-            <a class="logo" href="#welcome"><img src="img/profile/logo_ico.png" alt="Menu Accueil" title="Accueil" width="50" height="50"></a>
+
+            <a class="logo fr_lang" href="#welcome"><img src="img/profile/logo_ico.png" alt="Menu Accueil"
+                    title="Accueil" width="50" height="50"></a>
+            <a class="logo eng_lang" href="#welcome"><img src="img/profile/logo_ico.png" alt="Menu Home" title="Home"
+                    width="50" height="50"></a>
+
             <div class="nav-links">
                 <div class="selectLanguageContainer">
-                    <button class="nav_reveal0" id="selectLanguage"><img class="languageSelected" src="img/icones/logo/fr_icon.png" width="25" height="25"></button>
+                    <button class="nav_reveal0" id="selectLanguage"><img class="languageSelected"
+                            alt="Langue Selectionné Logo" src="img/icones/logo/fr_icon.png" width="25"
+                            height="25"></button>
                     <div class="optionsLanguages">
-                        <img class="optionLanguage" alt="Language FR" title="Français" src="img/icones/logo/fr_icon.png" width="25" height="25">
-                        <img class="optionLanguage" alt="Language EN" title="English" src="img/icones/logo/en_icon.png" width="25" height="25">
+                        <img id="FR_option" class="optionLanguage" alt="Language FR" title="Français"
+                            src="img/icones/logo/fr_icon.png" width="25" height="25">
+                        <img id="EN_option" class="optionLanguage" alt="Language EN" title="English"
+                            src="img/icones/logo/en_icon.png" width="25" height="25">
                     </div>
                 </div>
-                <a lang="FR" class="nav_reveal1 link_welcome" href="#welcome">Accueil</a>
-                <a lang="FR" class="nav_reveal2 link-myself" href="#myself">À propos</a>
-                <a lang="FR" class="nav_reveal3 link-projects" href="#projects">Projets</a>
-                <a lang="FR" class="nav_reveal4 link-skills" href="#skills">Compétences</a>
-                <a lang="FR" class="nav_reveal5 link-experiences" href="#experiences">Expériences</a>
-                <a lang="FR" class="nav_reveal6 link-contact" href="#contact">Contact</a>
-                <img src="img/menu_burger/croix.png" alt="Menu Burger" title="Fermer le menu" class="menu-burger-close">
+                <a class="fr_lang nav_reveal1 link_welcome" href="#welcome">Accueil</a>
+                <a class="fr_lang nav_reveal2 link-myself" href="#myself">À propos</a>
+                <a class="fr_lang nav_reveal3 link-projects" href="#projects">Projets</a>
+                <a class="fr_lang nav_reveal4 link-skills" href="#skills">Compétences</a>
+                <a class="fr_lang nav_reveal5 link-experiences" href="#experiences">Expériences</a>
+                <a class="fr_lang nav_reveal6 link-contact" href="#contact">Contact</a>
+
+                <a class="eng_lang nav_reveal1 link_welcome" href="#welcome">Home</a>
+                <a class="eng_lang nav_reveal2 link-myself" href="#myself">About me</a>
+                <a class="eng_lang nav_reveal3 link-projects" href="#projects">Projects</a>
+                <a class="eng_lang nav_reveal4 link-skills" href="#skills">Skills</a>
+                <a class="eng_lang nav_reveal5 link-experiences" href="#experiences">Experiences</a>
+                <a class="eng_lang nav_reveal6 link-contact" href="#contact">Contact</a>
+
+                <img src="img/menu_burger/croix.png" alt="Menu Burger" title="Close the menu" class="menu-burger-close">
             </div>
 
             <img src="img/menu_burger/menu-btn.png" alt="Menu Burger" title="Menu" class="menu-burger">
@@ -75,37 +88,77 @@
             <canvas class="welcome-canvas-el" width="1864" height="931" style="width: 100%; height: 100%;"></canvas>
 
             <div class="content">
-                <span class="welcome reveal-1">Bienvenue sur mon site, je suis</span>
-                <span class="name reveal-2">Lucas Vaugrente.</span>
-                <span class="status reveal-3">Étudiant en Informatique.</span>
-                <span class="pitch reveal-4">J'étudie en ce moment à l'<a class="iut-site" href="https://www.univ-nantes.fr/" target="_blank">université de Nantes</a>. Je suis actuellement en Master Informatique option Smart Computing orienté sur la recherche.</span>
-                <button class="btn-welcome reveal-5" onclick="window.location.href='#myself';">Commencer</button>
+                <span class="fr_lang welcome reveal-1">Bienvenue sur mon site, je suis</span>
+                <span class="fr_lang name reveal-2">Lucas Vaugrente.</span>
+                <span class="fr_lang status reveal-3">Étudiant en Informatique.</span>
+                <span class="fr_lang pitch reveal-4">J'étudie en ce moment à l'<a class="iut-site"
+                        href="https://www.univ-nantes.fr/" target="_blank">université de Nantes</a>. Je suis
+                    actuellement en Master Informatique option Smart Computing orienté sur la recherche.</span>
+                <button class="fr_lang btn-welcome reveal-5"
+                    onclick="window.location.href='#myself';">Commencer</button>
+
+                <span class="eng_lang welcome reveal-1">Welcome, my name is</span>
+                <span class="eng_lang name reveal-2">Lucas Vaugrente.</span>
+                <span class="eng_lang status reveal-3">Computer science student.</span>
+                <span class="eng_lang pitch reveal-4">I am currently studying at <a class="iut-site"
+                        href="https://www.univ-nantes.fr/" target="_blank">Nantes University</a>. I am
+                    in a Master's program in Computer Science on Smart Computing oriented towards
+                    research.</span>
+                <button class="eng_lang btn-welcome reveal-5" onclick="window.location.href='#myself';">Get
+                    started</button>
             </div>
 
         </div>
 
         <div id="myself">
 
-            <h1 class="title_myself">
+            <h1 class="fr_lang title_myself">
                 Qui suis-je ?
+            </h1>
+
+            <h1 class="eng_lang title_myself">
+                About me
             </h1>
 
             <div class="studies-block">
 
                 <div class="profile reveal-">
-                    <img src="img/profile/profile-picture.jpg" alt="Mon portait" title="Portait" width='350' height='350'>
+                    <img src="img/profile/profile-picture.jpg" alt="Mon portait" title="Portait" width='350'
+                        height='350'>
                 </div>
 
                 <div class="studies">
 
-                    <p class="situationNow">
-                        Actuellement en Master Informatique à l'<span class="lien_myself"><a href="https://www.univ-nantes.fr/" target="_blank">université de Nantes</a></span>,
-                        je suis en première année dans le master Smart Computing orienté recherche. L'année prochaine, je compte intégrer une école d'ingénieurs ou un autre master en informatique.
+                    <p class="fr_lang situationNow">
+                        Actuellement en Master Informatique à l'<span class="lien_myself"><a
+                                href="https://www.univ-nantes.fr/" target="_blank">université de Nantes</a></span>,
+                        je suis en première année dans le master Smart Computing orienté recherche. L'année prochaine,
+                        je compte intégrer <span class="lien_myself"><a href="https://polytech.univ-tours.fr/"
+                                target="_blank">Polytech Tours</a></span> pour 3 ans pour obtenir mon diplôme
+                        d'ingénieur.
                     </p>
 
-                    <p class="situationNow">
-                        Je fais de plus en plus de <span class="lien_myself"><a href="#projects">projets</a></span> personnels en dehors de l'activité scolaire afin de
-                        m'améliorer sur des langages appris durant ma formation. Je suis assez passionné et curieux pour découvrir de nouveaux languages de programmation, cela me permet de diversifier ma culture dans l'informatique.
+                    <p class="eng_lang situationNow">
+                        Currently in a Master's program in Computer Science at <span class="lien_myself"><a
+                                href="https://www.univ-nantes.fr/" target="_blank">Nantes University</a></span>, I am
+                        in the first year of the Smart Computing Master's program oriented towards research. Next
+                        year, I plan to join <span class="lien_myself"><a href="https://polytech.univ-tours.fr/"
+                                target="_blank">Polytech Tours</a></span> for 3 years to obtain my engineering degree.
+                    </p>
+
+                    <p class="fr_lang situationNow">
+                        Je fais de plus en plus de <span class="lien_myself"><a href="#projects">projets</a></span>
+                        personnels en dehors de l'activité scolaire afin de
+                        m'améliorer sur des langages appris durant ma formation. Je suis assez passionné et curieux pour
+                        découvrir de nouveaux languages de programmation, cela me permet de diversifier ma culture dans
+                        l'informatique.
+                    </p>
+
+                    <p class="eng_lang situationNow">
+                        I am increasingly working on <span class="lien_myself"><a href="#projects">personal
+                                projects</a></span> outside of school activities to improve my skills in languages
+                        learned during my studies. I am quite passionate and curious about discovering new programming
+                        languages, which allows me to diversify my knowledge in computer science.
                     </p>
 
                     <div class="studies_career">
@@ -113,18 +166,65 @@
                         <ul>
                             <li>
                                 <div class="date">2018 - 2021</div>
-                                <div class="title"><b>Baccaleuréat Général</b> option Mathématiques, Numérique Scientifique et Informatique et Maths Expertes</div>
-                                <div class="descr"><p><span class="lien_myself"><a href="https://www.lesrimains.org" target="_blank">Lycée Les Rimains Saint-Malo</a></span></p></div>
+                                <div class="fr_lang title"><b>Baccaleuréat Général</b> option Mathématiques, Numérique
+                                    Scientifique et Informatique et Maths Expertes</div>
+                                <div class="eng_lang title"><b>General Baccalaureate</b> with Mathematics, Scientific
+                                    Digital and Computer Science, and Advanced Mathematics options</div>
+                                <div class="descr">
+                                    <p><span class="lien_myself"><a href="https://www.lesrimains.org"
+                                                target="_blank">Lycée Les Rimains Saint-Malo</a></span></p>
+                                </div>
+                                <a class="logoSchool" href="https://www.lesrimains.org" target="_blank">
+                                    <img src="img/icones/logo/les_rimains.png" alt="Les Rimains Logo"
+                                        title="Lycée Les Rimains"></a>
                             </li>
                             <li>
                                 <div class="date">2021 - 2024</div>
-                                <div class="title"><b>Bachelor Universitaire de Technologie</b> Informatique</div>
-                                <div class="descr"><p><span class="lien_myself"><a href="https://iut-lannion.univ-rennes1.fr/" target="_blank">IUT de Lannion</a></span></p></div>
+                                <div class="fr_lang title"><b>Bachelor Universitaire de Technologie</b> Informatique
+                                </div>
+                                <div class="eng_lang title"><b>Bachelor of Technology</b> in Computer Science</div>
+                                <div class="fr_lang descr">
+                                    <p><span class="lien_myself"><a href="https://iut-lannion.univ-rennes1.fr/"
+                                                target="_blank">IUT de Lannion</a></span></p>
+                                </div>
+                                <div class="eng_lang descr">
+                                    <p><span class="lien_myself"><a href="https://iut-lannion.univ-rennes1.fr/"
+                                                target="_blank">IUT of Lannion</a></span></p>
+                                </div>
+                                <a class="logoSchool" href="https://iut-lannion.univ-rennes1.fr/" target="_blank">
+                                    <img src="img/icones/logo/iutLannion.jpg" alt="Iut de Lannion Logo"
+                                        title="IUT de Lannion">
+                                </a>
                             </li>
                             <li>
                                 <div class="date">2024 - 2025</div>
-                                <div class="title"><b>Master Informatique</b> Smart Computing</div>
-                                <div class="descr"><p><span class="lien_myself"><a href="https://www.univ-nantes.fr/" target="_blank">Université de Nantes</a></span></p></div>
+                                <div class="fr_lang title"><b>Master Informatique</b> Smart Computing</div>
+                                <div class="eng_lang title"><b>Master's in Computer Science</b> Smart Computing</div>
+                                <div class="fr_lang descr">
+                                    <p><span class="lien_myself"><a href="https://www.univ-nantes.fr/"
+                                                target="_blank">Université de Nantes</a></span></p>
+                                </div>
+                                <div class="eng_lang descr">
+                                    <p><span class="lien_myself"><a href="https://www.univ-nantes.fr/"
+                                                target="_blank">Nantes University</a></span></p>
+                                </div>
+                                <a class="logoSchool" href="https://www.univ-nantes.fr/" target="_blank">
+                                    <img src="img/icones/logo/universiteNantes.png" alt="Université de Nantes Logo"
+                                        title="Université de Nantes">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="date">2025 - 2028</div>
+                                <div class="fr_lang title"><b>Ecole d'ingénieur</b> Informatique</div>
+                                <div class="eng_lang title"><b>Engineering School</b> Computer Science</div>
+                                <div class="descr">
+                                    <p><span class="lien_myself"><a href="https://www.univ-nantes.fr/"
+                                                target="_blank">Polytech Tours</a></span></p>
+                                </div>
+                                <a class="logoSchool" href="https://polytech.univ-tours.fr/" target="_blank">
+                                    <img src="img/icones/logo/polytechTours.png" alt="Polytech Tours Logo"
+                                        title="Polytech Tours">
+                                </a>
                             </li>
                         </ul>
 
@@ -138,7 +238,8 @@
 
         <div id="projects">
 
-            <h1 class="title-projects">Projets</h1>
+            <h1 class="fr_lang title-projects">Projets</h1>
+            <h1 class="eng_lang title-projects">Projects</h1>
 
             <div class="section-projects"></div>
 
@@ -148,13 +249,17 @@
 
         <div id="skills">
 
-            <h1 class="title-skills">
+            <h1 class="fr_lang title-skills">
                 Compétences
+            </h1>
+
+            <h1 class="eng_lang title-skills">
+                Skills
             </h1>
 
             <div class="types_languages">
                 <h3 class="button-category-language-front">Front-End</h3>
-                <h3 class="button-category-language-dev type_selected">Développement Logiciel</h3>
+                <h3 class="button-category-language-dev type_selected">Software Development</h3>
                 <h3 class="button-category-language-back ">Back-End</h3>
             </div>
 
@@ -176,8 +281,12 @@
 
         <div id="experiences">
 
-            <h1 class="title-experiences">
+            <h1 class="fr_lang title-experiences">
                 Expériences
+            </h1>
+
+            <h1 class="eng_lang title-experiences">
+                Experiences
             </h1>
 
             <div class="section-experiences"></div>
@@ -197,25 +306,27 @@
                 <div class="contact-block">
 
                     <a class="block-mail revealBlock" href="mailto:lucasvaugrente35@gmail.com" target="_blank"
-                    style="--size: 425px;">
+                        style="--size: 425px;">
                         <img src="img/icones/logo/Mail.png" width="75" height="75" alt="Logo Mail">
                         <span class="info-mail lien_contacts">lucasvaugrente35@gmail.com</span>
                     </a>
 
                     <a class="block-cv revealBlock" href="download/cv_lucas_vaugrente.pdf" target="_blank"
-                    style="--size: 215px;">
-                        <img src="img/icones/logo/Download.png" width="75" height="75" alt="Lien Téléchargement CV" style="border-radius: 50px;">
-                        <span class="info-cv lien_contacts">Mon CV</span>
+                        style="--size: 215px;">
+                        <img src="img/icones/logo/Download.png" width="75" height="75" alt="Lien Téléchargement CV"
+                            style="border-radius: 50px;">
+                        <span class="fr_lang info-cv lien_contacts">Mon CV</span>
+                        <span class="eng_lang info-cv lien_contacts">My CV</span>
                     </a>
 
-                    <a class="block-linkedin revealBlock" href="https://www.linkedin.com/in/lucas-vaugrente-847211214/" target="_blank"
-                    style="--size: 320px;">
+                    <a class="block-linkedin revealBlock" href="https://www.linkedin.com/in/lucas-vaugrente-847211214/"
+                        target="_blank" style="--size: 320px;">
                         <img src="img/icones/logo/Linkedin.png" width="75" height="75" alt="Lien Linkedin">
                         <span class="info-linkedin lien_contacts">in/lucas-vaugrente</span>
                     </a>
 
                     <a class="block-git revealBlock" href="https://github.com/LucasVaugrente" target="_blank"
-                    style="--size: 285px;">
+                        style="--size: 285px;">
                         <img src="img/icones/logo/GitHub.png" width="70" height="70" alt="Lien GitHub">
                         <span class="info-git lien_contacts">lucasvaugrente</span>
                     </a>
@@ -229,20 +340,26 @@
         <footer>
 
             <div class="droit_github">
-                <a class="link-license" href="https://github.com/LucasVaugrente/Site-Personnel/blob/main/LICENSE.md" target="_blank">
+                <a class="link-license" href="https://github.com/LucasVaugrente/Site-Personnel/blob/main/LICENSE.md"
+                    target="_blank">
                     <span>© 2025 Lucas Vaugrente</span>
                     <img src="img/icones/logo/licence.png" width="30" height="30" alt="Licence MIT">
-                    <span>Licence MIT</span>
+                    <span class="fr_lang">Licence MIT</span>
+                    <span class="eng_lang">MIT License</span>
                 </a>
                 <a class="github-site" href="https://github.com/Luvey35/Site-Personnel" target="_blank">
-                    <span>Dépôt GitHub</span>
-                    <img class="logoGithub" src="img/icones/logo/GitHub_blanc.png" width="25" height="25" alt="Lien GitHub"
-                        title="GitHub du site">
+                    <span class="fr_lang">Dépôt GitHub</span>
+                    <span class="eng_lang">GitHub Repository</span>
+                    <img class="logoGithub" src="img/icones/logo/GitHub_blanc.png" width="25" height="25"
+                        alt="Lien GitHub" title="GitHub du site">
                 </a>
 
             </div>
 
-            <span class="thanks">Ce site a été créé en HTML, CSS et JavaScript. Merci d'avoir lu jusqu'au bout.</span>
+            <span class="fr_lang thanks">Ce site a été créé en HTML, CSS et JavaScript. Merci d'avoir lu jusqu'au
+                bout.</span>
+            <span class="eng_lang thanks">This site was created using HTML, CSS, and JavaScript. Thank you for reading
+                to the end.</span>
 
         </footer>
 

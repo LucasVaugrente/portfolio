@@ -1,66 +1,65 @@
 footer {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 70px;
-    z-index: 2;
-    padding: 5em 20%;
-    background-color: rgb(17, 123, 176);
-    font-size: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  z-index: 2;
+  padding: 5em 20%;
+  background-color: rgb(17, 123, 176);
+  font-size: 20px;
 }
 
 footer span {
-    color: var(--white-color);
-    margin-top: 5px;
+  color: var(--white-color);
+  margin-top: 5px;
 }
 
 .droit_github {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .github-site,
 .link-license {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.3s ease-in-out;
 }
 
 .link-license {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px;
 }
 
 .github-site:visited,
 .link-license:visited {
-    color: var(--white-color);
+  color: var(--white-color);
 }
 
 .github-site:hover,
 .link-license:hover {
-    filter: opacity(0.6);
+  filter: opacity(0.6);
 }
 
 .thanks {
-    text-align: center;
+  text-align: center;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
+  footer {
+    gap: 50px;
+  }
 
-    footer {
-        gap: 50px;
-    }
-
-    .droit_github {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
-    }
+  .droit_github {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
 }

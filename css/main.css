@@ -1,118 +1,119 @@
 :root {
-   --blue-background: rgb(23, 17, 54);
-   --pink-background: rgb(233, 221, 243);
-   --blockpink-background: rgb(239, 232, 244);
-   --black-color: black;
-   --white-color: white;
-   --link-color-backBlue: rgb(131, 253, 245);
-   --link-color-backPink: rgb(194, 47, 47);
-   --welcome-color1: rgb(161, 195, 255);
-   --welcome-color2: rgb(219, 237, 255);
-   --welcome-color3: rgb(182 195 215);
-   --project-pitch-color: rgb(170, 187, 255);
-   --project-pitch-backgroundColor: rgb(52, 38, 116);
-   --width : max-content;
-   --color-background-welcome: #317156;
+  --blue-background: rgb(35, 35, 79);
+  --blue-background2: rgb(23, 17, 54);
+  --pink-background: rgb(233, 221, 243);
+  --blockpink-background: rgb(239, 232, 244);
+  --black-color: black;
+  --white-color: white;
+  --link-color-backBlue: rgb(131, 253, 245);
+  --link-color-backPink: rgb(194, 47, 47);
+  --welcome-color1: rgb(161, 195, 255);
+  --welcome-color2: rgb(219, 237, 255);
+  --welcome-color3: rgb(182 195 215);
+  --project-pitch-color: rgb(227 232 255);
+  --project-pitch-backgroundColor: rgb(46 53 118);
+  --width: max-content;
+  --color-background-welcome: #45085c;
 }
 
 @font-face {
-    font-family: 'calibre_regular';
-    src: url("../fonts/calibre_regular.woff2") format('woff2'),
-    url("../fonts/calibre_regular.woff") format('woff');
+  font-family: "calibre_regular";
+  src: url("../fonts/calibre_regular.woff2") format("woff2"),
+    url("../fonts/calibre_regular.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'calibre_semi_bold';
-    src: url("../fonts/calibre_semi_bold.woff2") format('woff2')
+  font-family: "calibre_semi_bold";
+  src: url("../fonts/calibre_semi_bold.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'calibre_medium';
-    src: url("../fonts/calibre_medium.woff2") format('woff2')
+  font-family: "calibre_medium";
+  src: url("../fonts/calibre_medium.woff2") format("woff2");
 }
 
 html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
-    font-family: "calibre_medium";
-    overflow-x: hidden;
+  font-family: "calibre_medium";
+  overflow-x: hidden;
 }
 
 h1 {
-    font-size: clamp(40px, 8vw, 65px);
-    text-align: center;
-    padding-bottom: 40px;
+  font-size: clamp(40px, 8vw, 65px);
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 .block-transition {
-    position: relative;
-    height: 8vw;
-    width: 100%;
-    margin: -4vw 0px -4vw 0px;
-    transform: rotate(4deg) scale(1.2, 1);
-    z-index: 2;
+  position: relative;
+  height: 8vw;
+  width: 100%;
+  margin: -4vw 0px -4vw 0px;
+  transform: rotate(4deg) scale(1.2, 1);
+  z-index: 2;
 }
 
 .block-transition.white {
-    background: var(--pink-background);
+  background: var(--pink-background);
 }
 
 .block-transition.dark {
-    background: var(--blue-background);
+  background: var(--blue-background);
 }
 
 [class*="reveal-"] {
-    opacity: 0;
-    transform: translateX(-60px);
+  opacity: 0;
+  transform: translateX(-60px);
 }
 
 .reveal-visible {
-    opacity: 1;
-    transform: translateX(0);
-    transition: .6s;
+  opacity: 1;
+  transform: translateX(0);
+  transition: 0.6s;
 }
 
 .reveal-2 {
-    transition-delay: .4s;
+  transition-delay: 0.4s;
 }
 
 .reveal-3 {
-    transition-delay: .7s;
+  transition-delay: 0.7s;
 }
 
 .reveal-4 {
-    transition-delay: 1s;
+  transition-delay: 1s;
 }
 
 .reveal-5 {
-    transition-delay: 1.3s !important;
+  transition-delay: 1.3s !important;
 }
 
 .revealBlock {
-    opacity: 0;
-    transform: translateY(-30px);
+  opacity: 0;
+  transform: translateY(-30px);
 }
 
 .revealBlock-visible {
-    opacity: 1;
-    transform: translateY(0);
-    transition: .6s;
+  opacity: 1;
+  transform: translateY(0);
+  transition: 0.6s;
 }
 
 .fr_lang {
-    display: block;
+  display: block;
 }
 
 .eng_lang {
-    display: block;
+  display: block;
 }

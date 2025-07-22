@@ -6,7 +6,7 @@
 }
 
 .title-experiences {
-  background-color: rgb(23, 17, 54);
+  background-color: var(--blue-background);
   color: var(--white-color);
 }
 
@@ -15,7 +15,7 @@
   flex-direction: column;
   padding: 0 20%;
   gap: 100px;
-  background-color: rgb(23, 17, 54);
+  background-color: var(--blue-background);
 }
 
 .experience {

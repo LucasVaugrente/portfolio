@@ -168,6 +168,8 @@ const fetchProjects = (reveal, lang) => {
 
         if (reveal) {
           article.classList.add("revealBlock");
+        } else {
+          article.classList.add("revealBlock-visible");
         }
 
         Section_projects.appendChild(article);

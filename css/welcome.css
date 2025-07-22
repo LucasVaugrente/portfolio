@@ -10,7 +10,7 @@
   background: radial-gradient(
     ellipse at bottom,
     var(--color-background-welcome) 0%,
-    var(--blue-background) 100%
+    var(--blue-background2) 100%
   );
 }
 

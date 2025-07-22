@@ -125,6 +125,8 @@ const fetchExperiences = (reveal, lang) => {
 
         if (reveal) {
           article.classList.add("revealBlock");
+        } else {
+          article.classList.add("revealBlock-visible");
         }
 
         Section_experiences.appendChild(article);

@@ -5,8 +5,8 @@
       "type_project_fr": "Projet personnel",
       "type_project_en": "Personal project",
       "title": "Pixelart Gallery",
-      "description_fr": "Ce site présente mon univers de pixel art, où chaque création est le fruit de ma passion pour le dessin en pixels. Entre créations orinigales et références à oeuvres déjà existantes, je partage ici mes œuvres et expérimentations. Ce site est disponible ici : <a class=\"link_projects\" href=\"https://lucasvaugrente.github.io/pixel_gallery/\" target=\"_blank\">lucasvaugrente.github.io/pixel_gallery</a>",
-      "description_en": "This site showcases my pixel art universe, where each creation is the result of my passion for pixel drawing. Between original creations and references to existing works, I share here my works and experiments. This site is available here: <a class=\"link_projects\" href=\"https://lucasvaugrente.github.io/pixel_gallery/\" target=\"_blank\">lucasvaugrente.github.io/pixel_gallery</a>",
+      "description_fr": "Ce site présente mon univers de pixel art, où chaque création est le fruit de ma passion pour le dessin en pixels. Entre créations orinigales et références à oeuvres déjà existantes, je partage ici mes œuvres et expérimentations. Ce site est disponible <a class=\"link_projects\" href=\"https://lucasvaugrente.github.io/pixel_gallery/\" target=\"_blank\">ici</a>.",
+      "description_en": "This site showcases my pixel art universe, where each creation is the result of my passion for pixel drawing. Between original creations and references to existing works, I share here my works and experiments. This site is available <a class=\"link_projects\" href=\"https://lucasvaugrente.github.io/pixel_gallery/\" target=\"_blank\">here</a>.",
       "languages": [
         {
           "name": "HTML",

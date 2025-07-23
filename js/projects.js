@@ -99,6 +99,19 @@ const fetchProjects = (reveal, lang) => {
         let agit = document.createElement("a");
         agit.classList.add("lien-github_project");
 
+        let seeCode = document.createElement("span");
+        if (lang === "fr") {
+          seeCode.innerHTML = "Voir le code";
+          seeCode.classList.add("see-code");
+          seeCode.classList.add("fr");
+        }
+        if (lang === "en") {
+          seeCode.innerHTML = "See the code";
+          seeCode.classList.add("see-code");
+          seeCode.classList.add("en");
+        }
+        agit.appendChild(seeCode);
+
         imgGit.classList.add("logo-github");
         imgGit.setAttribute("src", "img/icones/logo/GitHub_blanc.png");
         if (lang === "fr") {

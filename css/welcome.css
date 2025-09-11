@@ -107,12 +107,12 @@
   transition: all 0.5s;
 }
 
-.iut-site:link {
+.school-site:link {
   display: inline-block;
   color: var(--link-color-backBlue);
 }
 
-.iut-site::after {
+.school-site::after {
   content: "";
   width: 0px;
   height: 1px;
@@ -122,11 +122,11 @@
   transition: 0.5s;
 }
 
-.iut-site:hover::after {
+.school-site:hover::after {
   width: 100%;
 }
 
-.iut-site:visited {
+.school-site:visited {
   color: var(--link-color-backBlue);
 }
 

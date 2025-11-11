@@ -44,6 +44,10 @@
   padding: 20px;
 }
 
+.contact-block a {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 850px) {
   .contact-block {
     flex-direction: column;

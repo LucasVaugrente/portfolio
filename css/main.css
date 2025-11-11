@@ -115,5 +115,5 @@ h1 {
 }
 
 .eng_lang {
-  display: block;
+  display: flex;
 }

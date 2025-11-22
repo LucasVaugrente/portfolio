@@ -62,6 +62,7 @@
 .lien_myself a:link {
   color: var(--link-color-backPink);
   display: inline-block;
+  transition: all 0.2s ease-in-out;
 }
 
 .lien_myself a::after {
@@ -196,6 +197,10 @@ ul li .descr::before {
   bottom: 0.25rem;
 }
 
+ul li .descr p {
+  width: 80%;
+}
+
 ul li .logoSchool {
   position: absolute;
   bottom: 5px;
@@ -291,5 +296,15 @@ ul li .logoSchool img:active {
 
   .studies {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .lien_myself a::after {
+    display: none;
+  }
+
+  .lien_myself a:hover {
+    color: rgb(226, 16, 16);
   }
 }

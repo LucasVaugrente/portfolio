@@ -19,6 +19,7 @@
   flex-direction: column;
   align-items: baseline;
   position: absolute;
+  gap: 20px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -40,7 +41,6 @@
   font-size: clamp(40px, 8vw, 80px);
   color: var(--white-color);
   font-weight: 700;
-  margin-top: 10px;
   pointer-events: all;
 }
 
@@ -54,7 +54,6 @@
   font-size: 20px;
   color: var(--welcome-color3);
   white-space: normal;
-  margin-top: 15px;
   width: 70%;
   pointer-events: all;
 }
@@ -65,7 +64,6 @@
   overflow: hidden;
   font-family: "calibre_medium";
   padding: 17px 10px 10px 10px;
-  margin-top: 50px;
   width: 200px;
   color: var(--link-color-backBlue);
   background-color: rgba(0, 0, 0, 0);
@@ -75,6 +73,7 @@
   cursor: pointer;
   transition: all 0.5s ease;
   pointer-events: all;
+  margin-top: 30px;
 }
 
 .btn-welcome:before,
@@ -145,5 +144,31 @@
   .pitch {
     font-size: 18px;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    align-items: center;
+    height: 80%;
+    padding-top: 110px;
+  }
+
+  .content span {
+    text-align: center;
+  }
+
+  .btn-welcome {
+    margin: 0;
+    position: absolute;
+    bottom: 40px;
+  }
+
+  .name {
+    font-size: clamp(50px, 8vw, 100px);
+  }
+
+  .status {
+    font-size: clamp(30px, 8vw, 40px);
   }
 }

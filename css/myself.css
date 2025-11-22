@@ -59,6 +59,10 @@
   text-align: center;
 }
 
+.studies_career li div {
+  padding-top: 5px;
+}
+
 .lien_myself a:link {
   color: var(--link-color-backPink);
   display: inline-block;

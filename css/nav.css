@@ -30,6 +30,13 @@ nav.notOnTop {
   pointer-events: all;
 }
 
+.logo_and_languages {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+
 .link-contact {
   color: var(--link-color-backBlue);
   border: 2px solid var(--link-color-backBlue);
@@ -265,11 +272,6 @@ nav a:active {
 
   .link-contact:hover:after {
     transform: none;
-  }
-
-  .optionsLanguages img {
-    width: 50px;
-    height: 50px;
   }
 
   .languageSelected {

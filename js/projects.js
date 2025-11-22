@@ -18,6 +18,14 @@ EN_option.addEventListener("click", () => {
   fetchProjects(false, "en");
 });
 
+
+let isMobile = false;
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  isMobile = true;
+}
+
+
 const fetchProjects = (reveal, lang) => {
   fetch(link_website + "data/projects.json")
     .then((response) => response.json())
@@ -138,9 +146,8 @@ const fetchProjects = (reveal, lang) => {
 
           cssRules += `
                     .project_${numproject}:before {
-                        background-image: url("${
-                          link_website + backgroundImage
-                        }");
+                        background-image: url("${link_website + backgroundImage
+            }");
                     }
                 `;
         }
@@ -165,7 +172,9 @@ const fetchProjects = (reveal, lang) => {
         video.setAttribute("loop", "");
         video.volume = 0;
 
-        lien_vid.appendChild(video);
+        if (!isMobile) {
+          lien_vid.appendChild(video);
+        }
 
         bloc_content.appendChild(bloc_title);
         bloc_content.appendChild(Text_Desc);

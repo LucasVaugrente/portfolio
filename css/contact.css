@@ -28,10 +28,6 @@
   background-color: rgb(226, 211, 237);
 }
 
-.block-git {
-  width: 110px !important;
-}
-
 .contact-block a span {
   font-size: 25px;
   white-space: pre;
@@ -52,5 +48,15 @@
   .contact-block {
     flex-direction: column;
     align-items: center;
+  }
+
+  .contact-block a {
+    filter: none;
+    border: solid 3px var(--blue-background);
+  }
+
+  .contact-block a:hover {
+    width: 113px !important;
+    background-color: var(--blockpink-background);
   }
 }

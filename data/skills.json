@@ -96,6 +96,11 @@
         "link": "https://www.python.org/"
       },
       {
+        "name": "Sprint Boot",
+        "image": "/img/icones/languages/spring-boot.svg",
+        "link": "https://spring.io/projects/spring-boot.svg"
+      },
+      {
         "name": "NodeJS",
         "image": "/img/icones/languages/nodejs.png",
         "link": "https://nodejs.org/en"

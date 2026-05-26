@@ -48,7 +48,7 @@
       },
       {
         "name": "Unix",
-        "image": "/img/icones/logo/Unix.svg",
+        "image": "/img/icones/languages/Unix.svg",
         "link": "https://fr.wikipedia.org/wiki/Unix"
       }
     ],
@@ -89,13 +89,8 @@
         "link": "https://jquery.com"
       },
       {
-        "name": "Git",
-        "image": "/img/icones/logo/Git.svg",
-        "link": "https://git-scm.com/"
-      },
-      {
         "name": "Figma",
-        "image": "/img/icones/logo/Figma.svg",
+        "image": "/img/icones/languages/Figma.svg",
         "link": "https://www.figma.com/"
       }
     ],
@@ -124,6 +119,11 @@
         "name": "PHP",
         "image": "/img/icones/languages/Php.svg",
         "link": "https://fr.wikipedia.org/wiki/PHP#:~:text=PHP%3A%20Hypertext%20Preprocessor%2C%20plus%20connu,langage%20interpr%C3%A9t%C3%A9%20de%20fa%C3%A7on%20locale."
+      },
+      {
+        "name": "Git",
+        "image": "/img/icones/logo/Git.svg",
+        "link": "https://git-scm.com/"
       }
     ],
     "data": [

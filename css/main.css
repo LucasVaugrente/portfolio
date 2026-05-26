@@ -17,19 +17,18 @@
 }
 
 @font-face {
-  font-family: "calibre_regular";
-  src: url("../fonts/calibre_regular.woff2") format("woff2"),
-    url("../fonts/calibre_regular.woff") format("woff");
+  font-family: "inter_regular";
+  src: url("../fonts/Inter-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "calibre_semi_bold";
-  src: url("../fonts/calibre_semi_bold.woff2") format("woff2");
+  font-family: "inter_semibold";
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "calibre_medium";
-  src: url("../fonts/calibre_medium.woff2") format("woff2");
+  font-family: "inter_medium";
+  src: url("../fonts/Inter-Medium.woff2") format("woff2");
 }
 
 html {
@@ -45,7 +44,7 @@ html {
 }
 
 body {
-  font-family: "calibre_medium";
+  font-family: "inter_regular", sans-serif;
   overflow-x: hidden;
 }
 

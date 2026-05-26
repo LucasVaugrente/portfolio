@@ -1,20 +1,19 @@
-const buttonFrontEnd = document.querySelector(
-  ".button-category-language-front"
-);
-const buttonSoftwareDev = document.querySelector(
-  ".button-category-language-dev"
-);
+const buttonFrontEnd = document.querySelector(".button-category-language-front");
+const buttonSoftwareDev = document.querySelector(".button-category-language-dev");
 const buttonBackEnd = document.querySelector(".button-category-language-back");
+const buttonData = document.querySelector(".button-category-language-data");
 
 const blockFrontEnd = document.querySelector(".front");
 const blockSoftwareDev = document.querySelector(".software");
 const blockBackEnd = document.querySelector(".back");
+const blockData = document.querySelector(".data");
 
 link_website = "https://lucasvaugrente.github.io/portfolio/";
 
 fetch(link_website + "data/skills.json")
   .then((response) => response.json())
   .then((data) => {
+    console.log(data);
     for (const type in data.skills) {
       for (let index = 0; index < data.skills[type].length; index++) {
         const div = document.createElement("div");
@@ -46,11 +45,14 @@ fetch(link_website + "data/skills.json")
           blockSoftwareDev.appendChild(div);
         } else if (type === "front") {
           blockFrontEnd.appendChild(div);
-        } else {
+        } else if (type === "back") {
           blockBackEnd.appendChild(div);
+        } else if (type === "data") {
+          blockData.appendChild(div);
         }
       }
     }
+    console.log(blockData);
   })
   .catch((error) => console.error(error));
 
@@ -61,10 +63,12 @@ buttonFrontEnd.addEventListener("click", () => {
     buttonFrontEnd.classList.toggle("type_selected");
     buttonSoftwareDev.classList.remove("type_selected");
     buttonBackEnd.classList.remove("type_selected");
+    buttonData.classList.remove("type_selected");
 
     toggleClass(blockBackEnd, "hide");
     toggleClass(blockSoftwareDev, "hide");
     toggleClass(blockFrontEnd, "show");
+    toggleClass(blockData, "hide");
 
     for (let index = 0; index < languages.length; index++) {
       languages[index].classList.remove("revealSkills-visible");
@@ -77,10 +81,12 @@ buttonSoftwareDev.addEventListener("click", () => {
     buttonSoftwareDev.classList.toggle("type_selected");
     buttonFrontEnd.classList.remove("type_selected");
     buttonBackEnd.classList.remove("type_selected");
+    buttonData.classList.remove("type_selected");
 
     toggleClass(blockBackEnd, "hide");
     toggleClass(blockSoftwareDev, "show");
     toggleClass(blockFrontEnd, "hide");
+    toggleClass(blockData, "hide");
 
     for (let index = 0; index < languages.length; index++) {
       languages[index].classList.remove("revealSkills-visible");
@@ -93,10 +99,30 @@ buttonBackEnd.addEventListener("click", () => {
     buttonBackEnd.classList.toggle("type_selected");
     buttonSoftwareDev.classList.remove("type_selected");
     buttonFrontEnd.classList.remove("type_selected");
+    buttonData.classList.remove("type_selected");
 
     toggleClass(blockBackEnd, "show");
     toggleClass(blockSoftwareDev, "hide");
     toggleClass(blockFrontEnd, "hide");
+    toggleClass(blockData, "hide");
+
+    for (let index = 0; index < languages.length; index++) {
+      languages[index].classList.remove("revealSkills-visible");
+    }
+  }
+});
+
+buttonData.addEventListener("click", () => {
+  if (!buttonData.classList.contains("type_selected")) {
+    buttonData.classList.toggle("type_selected");
+    buttonSoftwareDev.classList.remove("type_selected");
+    buttonFrontEnd.classList.remove("type_selected");
+    buttonBackEnd.classList.remove("type_selected");
+
+    toggleClass(blockSoftwareDev, "hide");
+    toggleClass(blockFrontEnd, "hide");
+    toggleClass(blockBackEnd, "hide");
+    toggleClass(blockData, "show");
 
     for (let index = 0; index < languages.length; index++) {
       languages[index].classList.remove("revealSkills-visible");

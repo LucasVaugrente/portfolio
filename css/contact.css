@@ -4,6 +4,7 @@
 }
 
 .title-contacts {
+  font-family: "inter_semibold", sans-serif;
   color: var(--blue-background);
 }
 
@@ -32,7 +33,7 @@
   font-size: 25px;
   white-space: pre;
   color: var(--blue-background);
-  margin-top: 8px;
+  font-family: "inter_semibold", sans-serif;
   overflow: hidden;
 }
 

@@ -9,11 +9,11 @@ footer {
   padding: 5em 20%;
   background-color: rgb(17, 123, 176);
   font-size: 20px;
+  font-family: "inter_semibold", sans-serif;
 }
 
 footer span {
   color: var(--white-color);
-  margin-top: 5px;
 }
 
 .droit_github {

@@ -7,6 +7,7 @@
 
 .title-projects {
   color: var(--white-color);
+  font-family: "inter_semibold", sans-serif;
 }
 
 .section-projects {
@@ -17,6 +18,7 @@
 }
 
 .p-title {
+  font-family: "inter_semibold", sans-serif;
   font-size: 40px;
   color: var(--white-color);
 }
@@ -47,13 +49,13 @@
 .p-pitch {
   font-size: 18px;
   padding: 20px;
-  text-align: justify;
   background-color: var(--project-pitch-backgroundColor);
   color: var(--project-pitch-color);
   border-radius: 30px;
   position: relative;
   box-shadow: 0 0 0.6em black;
   transition: all 0.5s ease;
+  line-height: 1.4;
 }
 
 .p-pitch-gauche {
@@ -65,6 +67,7 @@
 }
 
 .title-project {
+  font-family: "inter_semibold", sans-serif;
   color: aquamarine;
 }
 
@@ -145,9 +148,9 @@ video::-webkit-media-controls-mute-button {
   position: absolute;
   text-align: center;
   bottom: -50px;
+  font-family: "inter_semibold", sans-serif;
   color: var(--blue-background);
   padding: 5px 12px;
-  padding-top: 10px;
   background-color: rgba(255, 255, 255, 0.514);
   white-space: nowrap;
   font-size: 17px;
@@ -157,11 +160,11 @@ video::-webkit-media-controls-mute-button {
 }
 
 .see-code.fr {
-  left: -37px;
+  left: -45px;
 }
 
 .see-code.en {
-  left: -40px;
+  left: -50px;
 }
 
 .see-code::after {
@@ -181,9 +184,9 @@ video::-webkit-media-controls-mute-button {
 
 .langues-prog {
   color: var(--link-color-backBlue);
+  font-family: "inter_semibold", sans-serif;
   font-size: 20px;
   transition: opacity 0.3s ease-in-out;
-  margin-top: 4px;
 }
 
 .langues-prog:hover {

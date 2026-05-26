@@ -15,8 +15,8 @@ nav {
 nav a {
   color: var(--white-color);
   font-size: 22px;
+  font-family: "inter_semibold", sans-serif;
   pointer-events: all;
-  padding-top: 4px;
 }
 
 nav img {
@@ -40,9 +40,9 @@ nav.notOnTop {
 .link-contact {
   color: var(--link-color-backBlue);
   border: 2px solid var(--link-color-backBlue);
-  border-radius: 20px;
+  border-radius: 30px;
   position: relative;
-  padding: 10px 15px 5px 15px;
+  padding: 10px 25px;
   overflow: hidden;
 }
 

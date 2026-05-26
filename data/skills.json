@@ -37,9 +37,9 @@
         "link": "https://fr.wikipedia.org/wiki/JavaFX"
       },
       {
-        "name": "Android Studio",
-        "image": "/img/icones/languages/android_studio.png",
-        "link": "https://developer.android.com/studio"
+        "name": "Flutter",
+        "image": "/img/icones/languages/flutter.png",
+        "link": "https://flutter.dev/"
       },
       {
         "name": "Git",
@@ -114,7 +114,9 @@
         "name": "PHP",
         "image": "/img/icones/languages/Php.svg",
         "link": "https://fr.wikipedia.org/wiki/PHP#:~:text=PHP%3A%20Hypertext%20Preprocessor%2C%20plus%20connu,langage%20interpr%C3%A9t%C3%A9%20de%20fa%C3%A7on%20locale."
-      },
+      }
+    ],
+    "data": [
       {
         "name": "MySQL",
         "image": "/img/icones/languages/MySQL.svg",
@@ -124,6 +126,11 @@
         "name": "PostgreSQL",
         "image": "/img/icones/languages/PostgreSQL.png",
         "link": "https://www.postgresql.org/"
+      },
+      {
+        "name": "MongoDB",
+        "image": "/img/icones/languages/mongodb.png",
+        "link": "https://www.mongodb.com/"
       }
     ]
   }

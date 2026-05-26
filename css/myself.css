@@ -8,6 +8,7 @@
 
 .title_myself {
   color: var(--blue-background);
+  font-family: "inter_semibold", sans-serif;
 }
 
 .studies-block {
@@ -33,8 +34,8 @@
 }
 
 .situationNow {
-  text-align: justify;
-  text-indent: 20px;
+  text-indent: 40px;
+  line-height: 1.4;
 }
 
 .studies_career {
@@ -60,12 +61,9 @@
   text-align: center;
 }
 
-.studies_career li div {
-  padding-top: 5px;
-}
-
 .lien_myself a:link {
   color: var(--link-color-backPink);
+  font-family: "inter_semibold", sans-serif;
   display: inline-block;
   transition: all 0.2s ease-in-out;
   text-indent: 0;
@@ -150,11 +148,11 @@ ul li .date {
   margin-inline: calc(1.5rem * -1);
 
   text-align: center;
+  font-family: "inter_semibold", sans-serif;
   background-color: var(--blue-background);
 
   color: white;
   font-size: 1.25rem;
-  font-weight: 700;
 
   display: grid;
   place-content: center;

@@ -25,10 +25,7 @@
   transform: translate(-50%, -50%);
   width: 70%;
   pointer-events: none;
-}
-
-.content span {
-  padding-top: 5px;
+  font-family: "inter_semibold", sans-serif;
 }
 
 .welcome {
@@ -55,6 +52,7 @@
   color: var(--welcome-color3);
   white-space: normal;
   width: 70%;
+  line-height: 1.6;
   pointer-events: all;
 }
 
@@ -62,9 +60,8 @@
   position: relative;
   cursor: pointer;
   overflow: hidden;
-  font-family: "calibre_medium";
-  padding: 17px 10px 10px 10px;
-  width: 200px;
+  font-family: "inter_semibold", sans-serif;
+  padding: 15px 40px;
   color: var(--link-color-backBlue);
   background-color: rgba(0, 0, 0, 0);
   font-size: 25px;

@@ -6,6 +6,7 @@
 }
 
 .title-skills {
+  font-family: "inter_semibold", sans-serif;
   background-color: var(--pink-background);
   color: var(--blue-background);
 }
@@ -64,8 +65,9 @@
 
 .types_languages > h3 {
   font-size: 25px;
+  font-family: "inter_semibold", sans-serif;
   text-align: center;
-  padding: 17px 15px 10px 15px;
+  padding: 15px 20px;
   cursor: pointer;
   transition: 0.4s;
   border-radius: 20px;
@@ -104,6 +106,7 @@
 
 .title_types {
   display: none;
+  font-family: "inter_semibold", sans-serif;
 }
 
 @media screen and (max-width: 1100px) {

@@ -6,6 +6,7 @@
 }
 
 .title-experiences {
+  font-family: "inter_semibold", sans-serif;
   background-color: var(--blue-background);
   color: var(--white-color);
 }
@@ -25,6 +26,7 @@
 }
 
 .title-experience {
+  font-family: "inter_semibold", sans-serif;
   color: aquamarine;
 }
 

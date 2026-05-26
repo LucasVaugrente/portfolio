@@ -45,6 +45,11 @@
         "name": "Git",
         "image": "/img/icones/logo/Git.svg",
         "link": "https://git-scm.com/"
+      },
+      {
+        "name": "Unix",
+        "image": "/img/icones/logo/Unix.svg",
+        "link": "https://fr.wikipedia.org/wiki/Unix"
       }
     ],
     "front": [
@@ -87,6 +92,11 @@
         "name": "Git",
         "image": "/img/icones/logo/Git.svg",
         "link": "https://git-scm.com/"
+      },
+      {
+        "name": "Figma",
+        "image": "/img/icones/logo/Figma.svg",
+        "link": "https://www.figma.com/"
       }
     ],
     "back": [
@@ -129,7 +139,7 @@
       },
       {
         "name": "MongoDB",
-        "image": "/img/icones/languages/mongodb.png",
+        "image": "/img/icones/languages/MongoDB.svg",
         "link": "https://www.mongodb.com/"
       }
     ]

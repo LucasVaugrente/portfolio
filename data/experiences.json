@@ -1,6 +1,45 @@
 {
   "experiences": [
     {
+      "date": "2026",
+      "experience_type_fr": "Stage",
+      "experience_type_en": "Internship",
+      "title": "Worldline",
+      "description_fr": "J'ai intégré une équipe de développement pour contribuer à deux projets majeurs. J'ai d'abord participé à la migration d'endpoints en Java Spring Boot, une mission qui m'a permis d'apprendre les bonnes pratiques d'écriture de code propre et de gestion de versions. Et ensuite, j'ai travaillé sur la conception d'une application web de monitoring. Cet outil centralise les événements via une timeline interactive des appels et d'agents, offrant ainsi à l'équipe une visibilité optimale pour analyser les situations et repérer les incidents.",
+      "description_en": "I joined a development team to contribute to two major projects. I first participated in the migration of endpoints to Java Spring Boot, a mission that allowed me to learn good practices for writing clean code and version management. And then, I worked on the design of a monitoring web application. This tool centralizes events via an interactive call and agent timeline, thus providing the team with optimal visibility to analyze situations and identify incidents.",
+      "languages": [
+        {
+          "name": "Vue.JS",
+          "url": "https://vuejs.org"
+        },
+        {
+          "name": "CSS",
+          "url": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
+        },
+        {
+          "name": "JavaScript",
+          "url": "https://fr.wikipedia.org/wiki/JavaScript"
+        },
+        {
+          "name": "Java",
+          "url": "https://fr.wikipedia.org/wiki/Java_(langage)"
+        },
+        {
+          "name": "Springboot",
+          "url": "https://spring.io/"
+        },
+        {
+          "name": "Docker",
+          "url": "https://www.docker.com"
+        },
+        {
+          "name": "GCP",
+          "url": "https://cloud.google.com/"
+        }
+      ],
+      "image": "/img/experiences/worldline.jpeg"
+    },
+    {
       "date": "2025",
       "experience_type_fr": "Projet TER - Stage",
       "experience_type_en": "Project - Internship",

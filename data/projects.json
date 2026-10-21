@@ -1,7 +1,24 @@
 {
   "projects": [
     {
-      "date": 2023,
+      "date": 2026,
+      "type_project_fr": "Projet personnel",
+      "type_project_en": "Personal project",
+      "title": "Fractals",
+      "description_fr": "Ce mini projet consiste à pouvoir construire et afficher des fractales, notamment les plus connus comme les ensembles de Julia et l'ensemble de Mandelbrot.",
+      "description_en": "This mini project consists of being able to build and display fractals, especially the most well-known ones such as the Julia sets and the Mandelbrot set.",
+      "languages": [
+        {
+          "name": "Python",
+          "url": "https://www.python.org"
+        }
+      ],
+      "link_git": "https://github.com/LucasVaugrente/fractals",
+      "video": "/videos/fractals.mp4",
+      "image": "/img/projects/fractalls.png"
+    },
+    {
+      "date": 2024,
       "type_project_fr": "Projet personnel",
       "type_project_en": "Personal project",
       "title": "Pixelart Gallery",

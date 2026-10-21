@@ -11,6 +11,10 @@
         {
           "name": "Python",
           "url": "https://www.python.org"
+        },
+        {
+          "name": "Taichi",
+          "url": "https://www.taichi-lang.org/"
         }
       ],
       "link_git": "https://github.com/LucasVaugrente/fractals",

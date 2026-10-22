@@ -28,6 +28,9 @@
 .title-experience {
   font-family: "inter_semibold", sans-serif;
   color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .title-experience-droite {

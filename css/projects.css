@@ -69,6 +69,9 @@
 .title-project {
   font-family: "inter_semibold", sans-serif;
   color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .title-project-droite {
@@ -318,6 +321,11 @@ video::-webkit-media-controls-mute-button {
     color: var(--white-color);
     box-shadow: none;
     padding: 0;
+    font-size: 15px;
+  }
+
+  .langues-prog {
+    font-size: 17px;
   }
 
   .p-pitch:hover {

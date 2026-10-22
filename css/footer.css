@@ -54,6 +54,7 @@ footer span {
 @media screen and (max-width: 800px) {
   footer {
     gap: 50px;
+    font-size: 15px;
   }
 
   .droit_github {
